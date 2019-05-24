@@ -53,11 +53,11 @@ end
 #####################################################
 
 def runner(current_card_total)
-  welcome
-  initial_round
-until current_card_total>21
-  hit?(sum)
-  display_card_total(card_total)
-end
-  end_game
+    welcome
+    initial_round
+  until current_card_total>21
+    hit?(sum)
+    display_card_total(card_total)
+  end
+    end_game
 end
