@@ -40,8 +40,8 @@ def hit?(sum)
       prompt_user
   else
       responce=='s'
-      return card_total
   end
+  return card_total
 end
 
 
