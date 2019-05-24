@@ -37,7 +37,7 @@ def hit?(sum)
         invalid_command
         prompt_user
       else responce=='s'
-       return card_total
+       return sum
   end
 end
 
