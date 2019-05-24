@@ -40,7 +40,7 @@ def hit?(sum)
       prompt_user
   else
       responce=='s'
-      return sum
+      return card_total
   end
 end
 
@@ -52,7 +52,7 @@ end
 #####################################################
 # get every test to pass before coding runner below #
 #####################################################
-current_card_total=20
+
 def runner(current_card_total)
     welcome
     initial_round
