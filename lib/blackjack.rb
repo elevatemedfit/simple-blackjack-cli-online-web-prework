@@ -34,6 +34,7 @@ def hit?(sum)
       if responce=='h'
         card_total=sum+deal_card
         display_card_total(card_total)
+        return card_total
       elsif responce!='h'&&responce!='s'
         invalid_command
         prompt_user
