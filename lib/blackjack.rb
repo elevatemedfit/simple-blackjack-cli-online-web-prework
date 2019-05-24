@@ -41,7 +41,7 @@ def hit?(sum)
   else
       responce=='s'
   end
-  return card_total
+  return sum
 end
 
 
