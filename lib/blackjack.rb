@@ -32,7 +32,7 @@ def hit?(sum)
       prompt_user
       responce=get_user_input
       if responce=='h'
-        deal_card
+        card_total+=deal_card
       elsif responce!='h'&&responce!='s'
         invalid_command
         prompt_user
